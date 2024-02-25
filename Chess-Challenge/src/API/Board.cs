@@ -464,5 +464,9 @@ namespace ChessChallenge.API
 			return moveGen.NoLegalMovesInPosition(board);
 		}
 
+        internal void GetPieceList(PieceType knight)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
